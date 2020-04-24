@@ -1,0 +1,37 @@
+.big-old-button{
+  background: $purple;
+  border: none;
+  border-bottom: .6rem solid darken($purple, 10%);
+  color: white;
+  font-size: $size-l;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: $size-xl;
+  padding: 2.4rem;
+}
+
+.big-old-button:disabled{
+  opacity: .5;
+}
+
+.button{
+  background: $purple;
+  border: none;
+  border-bottom: .3rem solid darken($purple, 10%);
+  color: white;
+  font-weight: 500;
+  padding: $size-s;
+}
+
+.button--link{
+  background: none;
+  border: none;
+  color: $off-white;
+  padding: 0;
+}
+
+@media (max-width: $medium-phones-breakpoint) {
+  .big-old-button {
+    margin-bottom: $size-m
+  }
+}
